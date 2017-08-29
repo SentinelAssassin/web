@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/website.css" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="js/jquery-min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/website.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<!--a的地址是本站首页-->
+					<a href="" class="navbar-brand logo" alt="Logo"></a>
+					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+				</div>
+				<div id="mynavbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">资讯 <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#" target="_blank" class="transition">电商消费</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">娱乐淘金</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">雪花一代</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">人工智能</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">车与出行</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">智能终端</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">医疗健康</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">金融地产</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">企业服务</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">创业维艰</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">社交通讯</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">全球热点</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">24小时</a>
+						</li>
+						<li>
+							<a href="">活动</a>
+						</li>
+						<li>
+							<a href="">创业白板</a>
+						</li>
+
+						<li>
+							<a href="">会员专享</a>
+						</li>
+						<li>
+							<a href="">官方Blog</a>
+						</li>
+
+					</ul>
+
+					<ul class=" nav navbar-nav navbar-right">
+						<li>
+							<a href="login.html">APP下载</a>
+						</li>
+						<li>
+							<a href="#" data-toggle="modal" data-target="#login-modal">登录</a>
+						</li>
+						<div id="login-modal" class="modal fade in ">
+							<div class="modal-dialog " style="width:400px;">
+								<div class="modal-content">
+
+									<div class="modal-body ">
+
+										<div class="content-body" style="width:300px;height: 400px; margin:20px auto ;">
+
+											<h4>登录虎嗅<span class="close" data-dismiss="modal">&times;</span></h4>
+
+											<div class="login-form username-box" style="margin: 20px auto;">
+												<a href="">短信快捷登录</a>
+												<form action="" method="post">
+													<div class="form-group">
+														<label for="">用户名/手机/邮箱</label>
+														<input class="form-control" type="text" />
+													</div>
+													<div class="form-group">
+														<label for="">密码</label>
+														<input class="form-control" type="password" />
+													</div>
+													<div class="form-group">
+														<a href="#">忘记密码?</a>
+													</div>
+													<div class="form-group">
+														<button class="btn btn-primary form-control" type="submit">登录</button>
+													</div>
+
+												</form>
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<li>
+							<a href="#" data-toggle="modal" data-target="#signup-modal">注册</a>
+						</li>
+						<div id="signup-modal" class="modal fade in ">
+							<div class="modal-dialog " style="width:400px;">
+								<div class="modal-content">
+
+									<div class="modal-body ">
+
+										<div class="content-body" style="width:300px;height: 400px; margin:20px auto ;">
+
+											<h4>急速注册<span class="close" data-dismiss="modal">&times;</span></h4>
+
+											<div class="login-form username-box" style="margin: 20px auto;">
+												<form action="" method="post">
+													<div class="form-group">
+														<label for="">手机</label>
+														<input class="form-control" type="text" />
+													</div>
+													<div class="form-group">
+														<label for="">验证码</label>
+														<input class="form-control" type="text" />
+													</div>
+													<div class="form-group">
+														<label for="">设置密码</label>
+														<input class="form-control" type="password" />
+													</div>
+
+													<div class="form-group">
+														<button class="btn btn-primary form-control" type="submit">注册账户</button>
+													</div>
+													<div class="form-group">
+														<div class="login-text">
+															<a href="login.html">已有账号，立即登录</a>
+														</div>
+													</div>
+												</form>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</ul>
+					<form action="" class="navbar-form navbar-right">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Search" />
+						</div>
+						<button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span>搜索</button>
+					</form>
+
+				</div>
+			</nav>
+
+		</div>
+		<div class="container">
+			<div class="col-md-8">
+				<div class="news-title">
+					<h1>【早报】阿里股价报收174.46美元创新高，今年累计上涨99%</h1>
+				</div>
+				<div class="news-status">
+					<span>2017-08-23 07:49</span>
+					<span>收藏3</span>
+					<span>评论6</span>
+				</div>
+				<div class="news-content">
+					<div class="news-img">
+						<img src="img/new-img.jpg" />
+					</div>
+					<div>
+						从昨晚到今晨，最吸睛的新闻（传闻），大概是昨晚创业家的一篇《重磅！百度洽谈收购今日头条》，报道称，8月22日，不止一位知情人士向创业家&i黑马透露，百度已在悄然洽谈收购今日头条，并希望今日头条创始人张一鸣在公司被并购后进入百度决策层。
+
+					</div>
+					<div>
+						另一位今日头条员工说：今日头条收购百度还差不多。
+
+					</div>
+					<div>
+						虎嗅作者俊世太保评论道：每一次今日头条融资时，都会出现一个收购对象，上一次是腾讯，这一次是百度，相信下一次应该会是阿里巴巴。
+
+					</div>
+					<div>
+						另一个百度的意外
+
+					</div>
+					<div>
+						@北京商报【百度意外没有进入网联清算有限公司董事会】8月22日，中国支付清算协会官网消息显示，网联清算有限公司（筹）（以下简称“网联”）举行第一次股东会会议，该会议审议通过了公司章程，选举产生了公司第一届董事会、监事会。
+
+					</div>
+					<div>
+						北京商报记者从支付机构以及相关监管部门处求证到，13个董事席位中，有7家国字号企业。此外，支付宝、财付通、网银在线、天翼电子商务、快钱、平安付6家支付机构进入董事会。
+
+					</div>
+					<div>
+						令业界意外的是，BAT于巨头之一的百度旗下支付品牌百付宝未入选董事席位，保留了一个监事席位。股东提名的4个监事单位分别为中国印钞造币总公司、百度金融、联动优势电子商务有限公司、中移电子商务有限公司。据消息人士称，上述董事及监事成员提名人选已100%全票通过。
+
+					</div>
+					<div>
+						薛蛮子老师谈ICO，毕竟是业内人士
+
+					</div>
+					<div>
+						@新京报【上海突检某区块链峰会，薛蛮子称90%的ICO项目不靠谱】8月21日晚间，上海市浦东新区市场监督管理局官方微博发布消息称，浦东市场监管局对辖区内疑似虚假宣传的某全球区块链峰会进行突击检查。这是近段时间火爆的ICO众筹领域遭遇的第一波公开检查，但平台方维优元界宣称并不存在问题。
+
+					</div>
+					<div>
+						薛蛮子称，现在每天都有很多个ICO，而且质量鱼龙混杂，这是值得警惕的。很快我会联合一些朋友做一个自律的声明：我希望每一个从事区块链技术的人应该是严肃认真的态度，同时，要在监管来临之前，自己要注意这件事。
+
+					</div>
+					<div>
+						共享单车每天都有负面的节奏
+					</div>
+					<div>
+						联通谈员工股权激励方案：我们很苛刻
+
+					</div>
+					<div>
+						@澎湃新闻【联通回应员工股权激励方案定价质疑：解锁的业绩条件非常苛刻】8月22日，中国联通在新闻稿中称，联通混改限制性股票激励计划的具体方案发布以来，引起社会各方和舆论的高度关注。但由于一些人对该方案缺乏全面深入了解，也出现一些主观、片面的所谓联通股权激励是“半价福利”“一夜造富”的误导性言论。
+
+					</div>
+					<div>
+						中国联通称，混改方案中拟配套实施的限制性股票激励有着非常苛刻的业绩条件限制，企业员工要付出艰辛努力才能得到兑现。
+
+					</div>
+					<div>苛刻到只给少数核心员工，果然苛刻。
+					</div>
+					<div>房地产行业今年流行轻资产
+					</div>
+					<div>@新浪财经【潘石屹：因回报率低卖资产，SOHO中国转向轻资产模式】在SOHO中国中期业绩会上，关于出售资产，SOHO中国董事长潘石屹表示，“说我们跟李嘉诚、王健林一起都要跑了，这是误解”，“我们能往哪儿跑去？说我们是从重资产模式向轻资产模式转，向平台化的共享经济模式，这是对的。”
+					</div>
+					<div>@新浪财经【李思廉谈并购万达酒店：不是砍价王 20分钟敲定交易】富力地产早前突然“插足”融创中国和万达的大交易，而且打折成交。富力地产董事长李思廉称，交易缘起在北京一个场合和双方谈起，只用20分钟就敲定百亿元生意。他笑称自己并非砍价王，只是和王健林认识很久，得到对方的信任。
+					</div>
+					<div>@新浪财经【李思廉谈并购万达酒店：不是砍价王 20分钟敲定交易】富力地产早前突然“插足”融创中国和万达的大交易，而且打折成交。富力地产董事长李思廉称，交易缘起在北京一个场合和双方谈起，只用20分钟就敲定百亿元生意。他笑称自己并非砍价王，只是和王健林认识很久，得到对方的信任。
+					</div>
+					<div>中概股表现如何
+					</div>
+					<div>@见闻实时新闻【阿里首次收于170美元关口上方，与微博再创收盘纪录新高】微博收涨3.68%，报94.41美元，2017年迄今涨幅扩大至132.54%。
+					</div>
+					<div>阿里巴巴收涨3.08%，报174.46美元，2017年迄今涨幅扩大至98.72%。
+					</div>
+					<div>京东涨2.16%，新浪涨1.65%，百度涨1.63%，陌陌收跌20.10%。
+					</div>
+					<div>@北京晨报【陌陌最牛主播年收入1600万，8个月被打赏3000万元】人口红利带来的“打赏经济”也大大提升了陌陌及平台主播的收入。据悉，陌陌的人气主播阿冷的2016年收入高达1600万元，还创造了8个月被打赏3000万元的直播界奇迹。陌陌公布的数据显示，2016年陌陌十大主播总收入达1.15亿元…
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="hot-article">
+					<h3>热文</h3>
+					<ul class="hot-article-list">
+						<li>
+							<img src="img/1.jpg" />
+							<div class="hot-article-abstract">
+								<a href="#">5亿美元：百度外卖的最后一单，是卖身契</a>
+							</div>
+						</li>
+						<li>
+							<img src="img/2.jpg" />
+							<div class="hot-article-abstract">
+								<a href="#">美团七年，以及王兴的边界</a>
+							</div>
+						</li>
+						<li>
+							<img src="img/3.jpg" />
+							<div class="hot-article-abstract">
+								<a href="#">保温杯的时代隐喻：85后都中年危机了</a>
+							</div>
+						</li>
+						<li>
+							<img src="img/4.jpg" />
+							<div class="hot-article-abstract">
+								<a href="#">百度把百度外卖5亿美元贱卖给饿了么，还顺便卖了3亿美元流量呢</a>
+							</div>
+						</li>
+						<li>
+							<img src="img/5.jpg" />
+							<div class="hot-article-abstract">
+								<a href="#">记者应聘网红奶茶店“排队托”：9小时排5次赚140元</a>
+							</div>
+						</li>
+						<li>
+							<img src="img/6.jpg" />
+							<div class="hot-article-abstract">
+								<a href="#">保温杯的时代隐喻：85后都中年危机了</a>
+							</div>
+						</li>
+						<li>
+							<img src="img/7.jpg" />
+							<div class="hot-article-abstract">
+								<a href="#">为何这款阅读app一边饱受争议，一边又被追捧？</a>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-tag-list">
+					<a href="#" target="_blank" class="transition">关于我们</a>
+					<a href="#" target="_blank" class="transition">加入我们</a>
+					<a href="#" target="_blank" class="transition">合作伙伴</a>
+					<a href="#" target="_blank" class="transition">广告及服务</a>
+					<a href="#" target="_blank" class="transition">常见问题解答</a>
+					<a href="#" target="_blank" class="transition">防网络诈骗专题</a>
+				</div>
+				<span>
+        			<span>Copyright ©</span>
+				<a href="#">虎嗅网</a>
+				<a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备12013432号-1</a>
+				<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102001402" target="_blank"><i class="i-wj"></i>京公网安备 11010102001402号</a>
+				<em class="bull-right">本站由</em><i class="icon-aliyun" style="width: 70px;background-size: 100%;left: 7px;"></i>
+				<em class="bull-em">提供计算与安全服务</em>
+				</span>
+			</div>
+
+		</footer>
+		<div class="go-top" data-toggle="tooltip" data-placement="left" title="回到顶部">
+			<span class="glyphicon glyphicon-menu-up"></span>
+		</div>
+
+</html>

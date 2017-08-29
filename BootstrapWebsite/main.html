@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/website.css" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="js/jquery-min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/website.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<!--a的地址是本站首页-->
+					<a href="" class="navbar-brand logo" alt="Logo"></a>
+					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+				</div>
+				<div id="mynavbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">资讯 <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#" target="_blank" class="transition">电商消费</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">娱乐淘金</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">雪花一代</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">人工智能</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">车与出行</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">智能终端</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">医疗健康</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">金融地产</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">企业服务</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">创业维艰</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">社交通讯</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" class="transition">全球热点</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">24小时</a>
+						</li>
+						<li>
+							<a href="">活动</a>
+						</li>
+						<li>
+							<a href="">创业白板</a>
+						</li>
+						<li>
+							<a href="">会员专享</a>
+						</li>
+						<li>
+							<a href="">官方Blog</a>
+						</li>
+					</ul>
+
+					<ul class=" nav navbar-nav navbar-right">
+						<li>
+							<a href="login.html">APP下载</a>
+						</li>
+						<li>
+							<a href="#" data-toggle="modal" data-target="#login-modal">登录</a>
+						</li>
+						<div id="login-modal" class="modal fade in ">
+							<div class="modal-dialog " style="width:400px;">
+								<div class="modal-content">
+									<div class="modal-body ">
+										<div class="content-body" style="width:300px;height: 400px; margin:20px auto ;">
+											<h4>登录虎嗅<span class="close" data-dismiss="modal">&times;</span></h4>
+											<div class="login-form username-box" style="margin: 20px auto;">
+												<a href="">短信快捷登录</a>
+												<form action="" method="post">
+													<div class="form-group">
+														<label for="">用户名/手机/邮箱</label>
+														<input class="form-control" type="text" />
+													</div>
+													<div class="form-group">
+														<label for="">密码</label>
+														<input class="form-control" type="password" />
+													</div>
+													<div class="form-group">
+														<a href="#">忘记密码?</a>
+													</div>
+													<div class="form-group">
+														<button class="btn btn-primary form-control" type="submit">登录</button>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<li>
+							<a href="#" data-toggle="modal" data-target="#signup-modal">注册</a>
+						</li>
+						<div id="signup-modal" class="modal fade in ">
+							<div class="modal-dialog " style="width:400px;">
+								<div class="modal-content">
+									<div class="modal-body ">
+										<div class="content-body" style="width:300px;height: 400px; margin:20px auto ;">
+											<h4>急速注册<span class="close" data-dismiss="modal">&times;</span></h4>
+											<div class="login-form username-box" style="margin: 20px auto;">
+												<a href="">短信快捷登录</a>
+												<form action="" method="post">
+													<div class="form-group">
+														<label for="">手机</label>
+														<input class="form-control" type="text" />
+													</div>
+													<div class="form-group">
+														<label for="">验证码</label>
+														<input class="form-control" type="text" />
+													</div>
+													<div class="form-group">
+														<label for="">设置密码</label>
+														<input class="form-control" type="password" />
+													</div>
+													<div class="form-group">
+														<button class="btn btn-primary form-control" type="submit">注册账户</button>
+													</div>
+													<div class="form-group">
+														<div class="login-text">
+															<a href="login.html">已有账号，立即登录</a>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</ul>
+					<form action="" class="navbar-form navbar-right">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="Search" />
+						</div>
+						<!--<button type="submit" class="search-button"></button>-->
+						<button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span>搜索</button>
+					</form>
+
+				</div>
+			</nav>
+		</div>
+		<div class="container">
+			<div class="col-md-9">
+				<div class="container">
+					<div class="banner">
+						<ul class="banner-img">
+							<li>
+								<a href=""><img src="img/c1.jpg" /></a>
+							</li>
+							<li>
+								<a href=""><img src="img/c2.jpg" /></a>
+							</li>
+							<li>
+								<a href=""><img src="img/c3.jpg" /></a>
+							</li>
+							<li>
+								<a href=""><img src="img/c4.jpg" /></a>
+							</li>
+						</ul>
+						<ul class="banner-num"></ul>
+						<div class="banner-btn banner-btn-prev"><span class="glyphicon glyphicon-chevron-left"></span></div>
+						<div class="banner-btn banner-btn-next"><span class="glyphicon glyphicon-chevron-right"></span></div>
+					</div>
+				</div>
+				<!--position ：re-->
+
+				<div class="news-list">
+					<div class="news-list-item clearfix">
+						<div class="col-md-4">
+							<a href="news.html"><img src="img/new-img.jpg" /></a>
+						</div>
+						<div class="col-md-8">
+							<a href="news.html">
+								<h3>网联第一次股东大会确定13名董事7名监事名单，提名全部通过</h3></a>
+							<div class="info">
+								<a class="user-info" href="">卢晓明</a>
+								<span> · </span>
+								<span>四小时前</span>
+								<span class="pull-right">10收藏</span>
+								<span class="pull-right "> · </span>
+								<span class=" pull-right">68评论</span>
+								<span class="pull-right">1.5k</span>
+								<span class="glyphicon glyphicon-eye-open pull-right"></span>
+							</div>
+							<div class="abstract">
+								<p>除了来自央行系及国家队的董监高人员，可以发现，其余几家支付机构在董事及监事人的选择上对背景各有倚重。</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-md-4">
+							<a href="news.html"><img src="img/i2.jpg" /></a>
+						</div>
+						<div class="col-md-8">
+							<a href="">
+								<h3>房屋在线交易平台 Opendoor 华裔 CEO：降低成本才是王道</h3></a>
+							<div class="info">
+								<a class="user-info" href="">常润曦 </a>
+								<span> · </span>
+								<span>四小时前</span>
+								<span class="pull-right">20收藏</span>
+								<span class="pull-right "> · </span>
+								<span class=" pull-right">58评论</span>
+								<span class="pull-right">1.8k</span>
+								<span class="glyphicon glyphicon-eye-open pull-right"></span>
+							</div>
+							<div class="abstract">
+								<p>买房难，卖房也难，原来美帝和我们大天朝一样。</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-md-4">
+							<a href="news.html"><img src="img/i3.jpg" /></a>
+						</div>
+						<div class="col-md-8">
+							<a href="">
+								<h3>5年内达到50亿？漫画付费这门生意，被更多人看好了</h3></a>
+							<div class="info">
+								<a class="user-info" href="">三文娱</a>
+								<span> · </span>
+								<span>五小时前</span>
+								<span class="pull-right">36收藏</span>
+								<span class="pull-right "> · </span>
+								<span class=" pull-right">77评论</span>
+								<span class="pull-right">2.6k</span>
+								<span class="glyphicon glyphicon-eye-open pull-right"></span>
+							</div>
+							<div class="abstract">
+								<p>无论是漫画平台方，还是漫画CP方，都普遍更加看好漫画付费的前景。</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-md-4">
+							<a href="news.html"><img src="img/i4.jpg" /></a>
+						</div>
+						<div class="col-md-8">
+							<a href="">
+								<h3>获 1.1 亿美金战略融资：香港版Netflix「Viu」要借 OTT 掘金新兴市场</h3></a>
+							<div class="info">
+								<a class="user-info" href="">宗迪</a>
+								<span> · </span>
+								<span>四小时前</span>
+								<span class="pull-right">66收藏</span>
+								<span class="pull-right "> · </span>
+								<span class=" pull-right">124评论</span>
+								<span class="pull-right">3.5k</span>
+								<span class="glyphicon glyphicon-eye-open pull-right"></span>
+							</div>
+							<div class="abstract">
+								<p>当泰国姑娘看着《星你》沉默、印尼小哥对着《战狼》流泪，请不要惊讶，这是 OTT 出海了~ 的技术。</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="news-list-item clearfix">
+						<div class="col-md-4">
+							<a href="news.html"><img src="img/i5.jpg" /></a>
+						</div>
+						<div class="col-md-8">
+							<a href="">
+								<h3>扫描157家公司的前世今生后，我们发现了新三板借壳真相</h3></a>
+							<div class="info">
+								<a class="user-info" href="">卢晓明</a>
+								<span> · </span>
+								<span>四小时前</span>
+								<span class="pull-right">360收藏</span>
+								<span class="pull-right "> · </span>
+								<span class=" pull-right">118评论</span>
+								<span class="pull-right">2.5k</span>
+								<span class="glyphicon glyphicon-eye-open pull-right"></span>
+							</div>
+							<div class="abstract">
+								<p>借壳后的公司，命运天差地别。</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-md-4">
+							<a href="news.html"><img src="img/i6.jpg" /></a>
+						</div>
+						<div class="col-md-8">
+							<a href="">
+								<h3>教育圈股权质押大潮已退，谁会变成“教育圈的乐视”？</h3></a>
+							<div class="info">
+								<a class="user-info" href="">鲸媒体 </a>
+								<span> · </span>
+								<span>六小时前</span>
+								<span class="pull-right">56收藏</span>
+								<span class="pull-right "> · </span>
+								<span class=" pull-right">125评论</span>
+								<span class="pull-right">3.4k</span>
+								<span class="glyphicon glyphicon-eye-open pull-right"></span>
+							</div>
+							<div class="abstract">
+								<p>荣耀or溃败，股权质押战场的“得与失”</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-md-4">
+							<a href="news.html"><img src="img/i7.jpg" /></a>
+						</div>
+						<div class="col-md-8">
+							<a href="">
+								<h3>Facebook 说要「入华」都这么多年了，你知道他们有多努力吗？</h3></a>
+							<div class="info">
+								<a class="user-info" href="">少数派</a>
+								<span> · </span>
+								<span>六小时前</span>
+								<span class="pull-right">256收藏</span>
+								<span class="pull-right "> · </span>
+								<span class=" pull-right">320评论</span>
+								<span class="pull-right">5.5k</span>
+								<span class="glyphicon glyphicon-eye-open pull-right"></span>
+							</div>
+							<div class="abstract">
+								<p>谁也没想到 Facebook 在中国大陆上架的第一个 App，居然是以如此「改头换面」的形式出现的，然而这并不是 Facebook 为了「入华」的第一次尝试。</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-list-item clearfix">
+						<div class="col-md-4">
+							<a href="news.html"><img src="img/i8.jpg" /></a>
+						</div>
+						<div class="col-md-8">
+							<a href="">
+								<h3>苹果新专利：未来的 iPhone 将支持 Apple Pencil</h3></a>
+							<div class="info">
+								<a class="user-info" href="">译东西</a>
+								<span> · </span>
+								<span>四小时前</span>
+								<span class="pull-right">320收藏</span>
+								<span class="pull-right "> · </span>
+								<span class=" pull-right">168评论</span>
+								<span class="pull-right">6.5k</span>
+								<span class="glyphicon glyphicon-eye-open pull-right"></span>
+							</div>
+							<div class="abstract">
+								<p>苹果又获得了两份专利，依然是 iPhone 支持 Apple Pencil 的技术。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="side-bar-card  ad clearfix">
+					<a href="#"><img src="img/ad.jpg" /></a>
+					<span class="pull-right">广告</span>
+				</div>
+				<div class="side-bar-card">
+					<div class="card-body">
+						<span class="span-mark"></span>
+						<div class="card-title">
+							<p>24小时热闻</p>
+						</div>
+						<div class="list">
+							<div class="item">
+								<div class="title">
+									<a href="#">麦当劳回应中国停用抗生素鸡时间表:2027年前停止</a>
+								</div>
+								<div class="desc">
+									15K阅读 1K评论
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">
+									<a href="#">财新：联通和广州基金联手打造100亿物联网产业基金</a>
+								</div>
+								<div class="desc">
+									15K阅读 1K评论
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">
+									<a href="#">MIUI9迎来最大规模开发版公测 16款小米手机支持升级</a>
+								</div>
+								<div class="desc">
+									15K阅读 1K评论
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">
+									<a href="#">太合音乐集团全资收购兵马司唱片 扶持独立音乐</a>
+								</div>
+								<div class="desc">
+									15K阅读 1K评论
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">
+									<a href="">谷歌推出App Engine防火墙 方便开发者管控IP地址</a>
+								</div>
+								<div class="desc">
+									15K阅读 1K评论
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">
+									<a href="#">英特尔：人们对无人驾驶汽车的安全性依然不放心</a>
+								</div>
+								<div class="desc">
+									15K阅读 1K评论
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">
+									<a href="#">为Xbox One版本的推特应用大更新：支持账号登录及时间轴</a>
+								</div>
+								<div class="desc">
+									15K阅读 1K评论
+								</div>
+							</div>
+							<div class="item">
+								<div class="title">
+									<a href="#">Google在Android 8.0 Oreo中引入了新的编译版本号格式</a>
+								</div>
+								<div class="desc">
+									15K阅读 1K评论
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-tag-list">
+					<a href="#" target="_blank" class="transition">关于我们</a>
+					<a href="#" target="_blank" class="transition">加入我们</a>
+					<a href="#" target="_blank" class="transition">合作伙伴</a>
+					<a href="#" target="_blank" class="transition">广告及服务</a>
+					<a href="#" target="_blank" class="transition">常见问题解答</a>
+					<a href="#" target="_blank" class="transition">防网络诈骗专题</a>
+				</div>
+				<span>
+        			<span>Copyright ©</span>
+				<a href="#">虎嗅网</a>
+				<a href="http://www.miitbeian.gov.cn/" target="_blank">京ICP备12013432号-1</a>
+				<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102001402" target="_blank"><i class="i-wj"></i>京公网安备 11010102001402号</a>
+				<em class="bull-right">本站由</em><i class="icon-aliyun" style="width: 70px;background-size: 100%;left: 7px;"></i>
+				<em class="bull-em">提供计算与安全服务</em>
+				</span>
+			</div>
+		</footer>
+		<div class="go-top" data-toggle="tooltip" data-placement="left" title="回到顶部">
+			<span class="glyphicon glyphicon-menu-up" ></span>
+		</div>
+	</body>
+
+</html>
